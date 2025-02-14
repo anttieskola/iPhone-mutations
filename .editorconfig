@@ -1,0 +1,77 @@
+
+# This file is the only configuration file for the entire solution
+root = true
+
+[*]
+end_of_line = lf
+insert_final_newline = true
+charset = utf-8
+trim_trailing_whitespace = true
+
+[*.{cs,vb}]
+# Language conventions
+csharp_style_prefer_primary_constructors = true:error
+csharp_style_expression_bodied_methods = true:error
+csharp_style_expression_bodied_properties = true:error
+
+# Naming conventions
+
+# Force 'var' when type is apparent
+csharp_style_var_when_type_is_apparent = true:error
+csharp_style_var_for_built_in_types = true:error
+
+# Force pattern matching preferences
+csharp_style_pattern_matching_over_is_with_cast_check = true:error
+csharp_style_pattern_matching_over_as_with_null_check = true:error
+
+# Force nullable reference types
+dotnet_style_nullable_type_for_reference_types = true:error
+
+# Enforce modifiers in preferred order
+csharp_preferred_modifier_order = public,private,protected,internal,static,extern,new,virtual,abstract,sealed,override,readonly,unsafe,required,volatile,async:error
+
+# Force string interpolation over concatenation
+dotnet_style_prefer_interpolation_over_interpolated = true:error
+
+# Force using declaration preferences
+csharp_prefer_simple_using_statement = true:error
+csharp_using_directive_placement = outside_namespace:error
+
+# Force file scoped namespaces
+csharp_style_namespace_declarations = file_scoped:error
+
+# Force IDE error handling
+dotnet_diagnostic.IDE0005.severity = error    # Remove unnecessary imports
+dotnet_diagnostic.IDE0055.severity = error    # Fix formatting
+dotnet_diagnostic.IDE0051.severity = error    # Remove unused private members
+
+# Interface must start with I
+dotnet_naming_rule.interface_should_be_begins_with_i.severity = error
+dotnet_naming_rule.interface_should_be_begins_with_i.symbols = interface
+dotnet_naming_rule.interface_should_be_begins_with_i.style = begins_with_i
+
+# Private fields must start with underscore
+dotnet_naming_rule.private_fields_with_underscore.severity = error
+dotnet_naming_rule.private_fields_with_underscore.symbols = private_fields
+dotnet_naming_rule.private_fields_with_underscore.style = begins_with_underscore
+
+# Define what is a private field
+dotnet_naming_symbols.private_fields.applicable_kinds = field
+dotnet_naming_symbols.private_fields.applicable_accessibilities = private
+
+# Define the underscore style
+dotnet_naming_style.begins_with_underscore.required_prefix = _
+dotnet_naming_style.begins_with_underscore.capitalization = camel_case
+
+# Async methods must end with Async
+dotnet_naming_rule.async_methods_end_with_async.severity = error
+dotnet_naming_rule.async_methods_end_with_async.symbols = async_methods
+dotnet_naming_rule.async_methods_end_with_async.style = end_with_async
+
+# Define what is an async method
+dotnet_naming_symbols.async_methods.applicable_kinds = method
+dotnet_naming_symbols.async_methods.required_modifiers = async
+
+# Define the async suffix style
+dotnet_naming_style.end_with_async.required_suffix = Async
+dotnet_naming_style.end_with_async.capitalization = pascal_case

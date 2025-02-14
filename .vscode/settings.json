@@ -1,0 +1,21 @@
+{
+    // C# and .NET settings
+    "omnisharp.enableRoslynAnalyzers": true,
+    "omnisharp.enableEditorConfigSupport": true,
+    "omnisharp.useModernNet": true,
+    "omnisharp.path": "latest",
+    "dotnet.server.useOmnisharp": true,
+    "dotnet.defaultSolution": "iPhone-mutations.sln",
+    // SonarQube settings
+    "sonarlint.connectedMode.connections.sonarqube": [
+        {
+            "connectionId": "local",
+            "serverUrl": "http://localhost:9000",
+            "token": "${env:SONAR_TOKEN}"
+        }
+    ],
+    "sonarlint.connectedMode.project": {
+        "connectionId": "local",
+        "projectKey": "iPhone-mutations"
+    }
+}
