@@ -1,5 +1,3 @@
-using System;
-
 namespace Mutations.Domain.Interface;
 
 public interface IReporting

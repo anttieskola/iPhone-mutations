@@ -9,6 +9,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infra", "src\Infra\Infra.cs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ui", "src\Ui\Ui.csproj", "{F5BAB5D0-9B45-4A71-AD17-F9657A1BCA1C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{537C4BDA-570C-4F97-A989-FCB503FFA4EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit", "tests\Unit\Unit.csproj", "{562B35FA-103E-4505-8DD1-5B78936B7670}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Integration", "tests\Integration\Integration.csproj", "{78CAEFBF-0AF2-424D-9D8F-D0906297ECA6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +36,17 @@ Global
 		{F5BAB5D0-9B45-4A71-AD17-F9657A1BCA1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5BAB5D0-9B45-4A71-AD17-F9657A1BCA1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5BAB5D0-9B45-4A71-AD17-F9657A1BCA1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{562B35FA-103E-4505-8DD1-5B78936B7670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{562B35FA-103E-4505-8DD1-5B78936B7670}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{562B35FA-103E-4505-8DD1-5B78936B7670}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{562B35FA-103E-4505-8DD1-5B78936B7670}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78CAEFBF-0AF2-424D-9D8F-D0906297ECA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78CAEFBF-0AF2-424D-9D8F-D0906297ECA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78CAEFBF-0AF2-424D-9D8F-D0906297ECA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78CAEFBF-0AF2-424D-9D8F-D0906297ECA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{562B35FA-103E-4505-8DD1-5B78936B7670} = {537C4BDA-570C-4F97-A989-FCB503FFA4EF}
+		{78CAEFBF-0AF2-424D-9D8F-D0906297ECA6} = {537C4BDA-570C-4F97-A989-FCB503FFA4EF}
 	EndGlobalSection
 EndGlobal
