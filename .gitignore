@@ -120,8 +120,3 @@ FakesAssemblies/
 
 # code coverage
 coverage.xml
-
-# mutation data
-Mutations
-Output
-
