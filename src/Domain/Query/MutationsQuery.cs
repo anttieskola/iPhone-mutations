@@ -1,4 +1,4 @@
-namespace Mutations.Domain.Query;
+namespace IPhoneMediaSync.Domain.Query;
 
 public record MutationQuery : IRequest<IEnumerable<Mutation>>
 {

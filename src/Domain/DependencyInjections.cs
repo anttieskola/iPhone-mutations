@@ -1,4 +1,4 @@
-namespace Mutations.Domain;
+namespace IPhoneMediaSync.Domain;
 
 public static class DependencyInjection
 {

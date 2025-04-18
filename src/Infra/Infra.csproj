@@ -1,8 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <RootNamespace>Mutations.Infra</RootNamespace>
-    <AssemblyName>Mutations.Infra</AssemblyName>
+    <RootNamespace>IPhoneMediaSync.Infra</RootNamespace>
+    <AssemblyName>IPhoneMediaSync.Infra</AssemblyName>
   </PropertyGroup>
 
   <PropertyGroup>

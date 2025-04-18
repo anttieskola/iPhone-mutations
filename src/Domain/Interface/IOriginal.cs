@@ -1,4 +1,4 @@
-namespace Mutations.Domain.Interface;
+namespace IPhoneMediaSync.Domain.Interface;
 
 /**
  * All mutations must implement this interface.

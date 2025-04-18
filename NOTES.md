@@ -15,11 +15,11 @@
 # install the dotnet scanner (only once per machine)
 dotnet tool install --global dotnet-sonarscanner
 
-# create project in SonarQube named "iPhone-mutations"
+# create project in SonarQube named "iPhoneMediaSync"
 
 # Start analysis (file should be already the ignore i use)
 dotnet sonarscanner begin \
-  /k:"iPhone-mutations" \
+  /k:"iPhoneMediaSync" \
   /d:sonar.host.url="http://localhost:9000" \
   /d:sonar.login="$SONAR_TOKEN" \
   /d:sonar.cs.opencover.reportsPaths="**/coverage.opencover.xml"
@@ -31,7 +31,7 @@ dotnet build
 dotnet sonarscanner end /d:sonar.login="$SONAR_TOKEN"
 
 # open browser to see the results
-firefox http://localhost:9000/dashboard?id=iPhone-mutations
+firefox http://localhost:9000/dashboard?id=iPhoneMediaSync
 
 # if all works out just add command to run it
 ```

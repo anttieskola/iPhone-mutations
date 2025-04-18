@@ -1,4 +1,4 @@
-namespace Mutations.Domain.Entity;
+namespace IPhoneMediaSync.Domain.Entity;
 
 /**
  * The mutation entity.

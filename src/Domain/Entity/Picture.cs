@@ -1,7 +1,7 @@
-namespace Mutations.Domain.Entity;
+namespace IPhoneMediaSync.Domain.Entity;
 
 /**
-* The original picture entity, created from mutations.
+* The original picture entity, created from IPhoneMediaSync.
 */
 public record Picture : IOriginal
 {

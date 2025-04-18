@@ -20,7 +20,7 @@ global using Microsoft.Extensions.Logging;
 global using MediatR;
 
 // Application namespaces
-global using Mutations.Domain.Command;
-global using Mutations.Domain.Entity;
-global using Mutations.Domain.Enum;
-global using Mutations.Domain.Interface;
+global using IPhoneMediaSync.Domain.Command;
+global using IPhoneMediaSync.Domain.Entity;
+global using IPhoneMediaSync.Domain.Enum;
+global using IPhoneMediaSync.Domain.Interface;

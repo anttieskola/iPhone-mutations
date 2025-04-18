@@ -5,7 +5,7 @@
     "omnisharp.useModernNet": true,
     "omnisharp.path": "latest",
     "dotnet.server.useOmnisharp": true,
-    "dotnet.defaultSolution": "iPhone-mutations.sln",
+    "dotnet.defaultSolution": "iPhoneMediaSync.sln",
     // SonarQube settings
     "sonarlint.connectedMode.connections.sonarqube": [
         {
@@ -16,6 +16,6 @@
     ],
     "sonarlint.connectedMode.project": {
         "connectionId": "ares",
-        "projectKey": "iPhone-mutations"
+        "projectKey": "iPhoneMediaSync"
     }
 }

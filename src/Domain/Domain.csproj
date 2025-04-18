@@ -1,8 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <RootNamespace>Mutations.Domain</RootNamespace>
-    <AssemblyName>Mutations.Domain</AssemblyName>
+    <RootNamespace>IPhoneMediaSync.Domain</RootNamespace>
+    <AssemblyName>IPhoneMediaSync.Domain</AssemblyName>
   </PropertyGroup>
 
   <PropertyGroup>

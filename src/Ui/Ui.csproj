@@ -1,11 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <RootNamespace>Mutations.Ui</RootNamespace>
-    <AssemblyName>mutations</AssemblyName>
+    <RootNamespace>IPhoneMediaSync.Ui</RootNamespace>
+    <AssemblyName>IPhoneMediaSync</AssemblyName>
   </PropertyGroup>
 
   <PropertyGroup>
+    <AssemblyName>iPhoneMediaSync</AssemblyName>
     <OutputType>Exe</OutputType>
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>

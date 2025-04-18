@@ -1,5 +1,5 @@
 
-namespace Mutations.Infra;
+namespace IPhoneMediaSync.Infra;
 
 public class MyFileSystem : IMutationFileSystem
 {
@@ -14,6 +14,10 @@ public class MyFileSystem : IMutationFileSystem
         {
             throw new DirectoryNotFoundException($"Directory not found: {searchPath}");
         }
+
+        // Mutations path: /Photodata/Mutations/102APPLE/IMG_3942/Adjustements/FullSizeRender.heic
+
+
         return await Task.FromResult(new List<Mutation>());
     }
 }

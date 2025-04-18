@@ -1,6 +1,6 @@
-namespace Mutations.Domain.Command;
+namespace IPhoneMediaSync.Domain.Command;
 
-public class MutationSaveCommand
+public class IPhoneMediaSyncaveCommand
 {
 
 }

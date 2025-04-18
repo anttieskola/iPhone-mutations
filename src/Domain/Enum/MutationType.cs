@@ -1,4 +1,4 @@
-namespace Mutations.Domain.Enum;
+namespace IPhoneMediaSync.Domain.Enum;
 
 public enum MutationType
 {

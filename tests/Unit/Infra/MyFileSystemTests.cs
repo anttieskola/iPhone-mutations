@@ -1,6 +1,6 @@
-using Mutations.Infra;
+using IPhoneMediaSync.Infra;
 
-namespace Mutations.Test.Infra;
+namespace IPhoneMediaSync.Test.Infra;
 
 public class MyFileSystemTests
 {

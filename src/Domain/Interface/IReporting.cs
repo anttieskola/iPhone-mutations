@@ -1,4 +1,4 @@
-namespace Mutations.Domain.Interface;
+namespace IPhoneMediaSync.Domain.Interface;
 
 public interface IReporting
 {
